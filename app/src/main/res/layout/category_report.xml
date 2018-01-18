@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/report_pie_chart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <ListView
+        android:id="@+id/category_report_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:layout_marginTop="10dp">
+    </ListView>
+</LinearLayout>
